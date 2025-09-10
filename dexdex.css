@@ -1,0 +1,33 @@
+body {
+  background-color:#6cace4;
+}
+
+.container {
+    width: 100%;
+    background-color: #f0f4f8;
+    border-radius: 20px;
+    border: 2px solid #000;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h4 {
+    color: rgb(227, 73, 219);
+}
+
+.highlight {
+    color: cornflowerblue;
+}
+
+table {
+    width: 200%;
+}
+
+th, td {
+    padding: 20px;
+    min-width: 100px;
+}
+.form-container {
+  max-width: 600px;
+  margin: 50px auto;
+}

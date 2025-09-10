@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("moutain.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    text-align: center;
+    overflow: hidden; 
+}
+.login-image {
+  height: 150px; /* ความสูงของรูป */
+  background: url("moutain.jpg") no-repeat center center;
+  background-size: cover; /* ให้เต็มกล่อง */
+}
+
+/* ส่วนเนื้อหา (ฟอร์ม) */
+.login-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.login-content h1 {
+  margin-bottom: 20px;
+  color: #6a0dad;
+}
+/* .login-box::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: 
+    linear-gradient(rgba(106, 13, 173, 0.4), rgba(106, 13, 173, 0.4)), 
+    url("moutain.jpg") no-repeat center center;
+  background-size: cover; }*/
+
+.login-box h1 {
+      margin-bottom: 20px;
+      color: #6a0dad;
+}
+.login-box input[type="submit"],
+.login-box input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 20px;
+    background: #6a0dad;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;                 /* ให้กว้างเต็มกล่อง */
+  padding: 14px;               /* เพิ่มความสูงให้ดูโปร่ง */
+  margin: 10px 0;
+  border: none;                /* เอาเส้นขอบออก */
+  border-radius: 30px;         /* โค้งมนมากขึ้น */
+  outline: none;
+
+  /* พื้นหลังไล่สีสวยๆ */
+  background: linear-gradient(135deg, #f9e0ff, #fcd1f8);
+
+  /* ทำให้ดูมีเงานิดๆ */
+  box-shadow: inset 2px 2px 6px rgba(255,255,255,0.6),
+              inset -2px -2px 6px rgba(0,0,0,0.1);
+  
+  font-size: 16px;
+  color: #333;
+}
+
+/* เปลี่ยนสีเวลา focus */
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus {
+  background: linear-gradient(135deg, #f5c2ff, #ee7fdd);
+  box-shadow: 0 0 8px rgba(200, 100, 255, 0.7);
+}
