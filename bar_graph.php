@@ -17,11 +17,12 @@
     <center>
         <img src="https://www.cpe.eng.rmutp.ac.th/wp-content/uploads/2023/10/cropped-cropped-banner.png" alt="" width="1000px">
      <div class="mb-3 " >
-            <a class="btn btn-custum " href="student.php" >HOME</a>
+            <a class="btn btn-custom " href="student.php" >HOME</a>
+            <a class="btn btn-custum" href="seller.php">seller</a>
             <a class="btn btn-custum " href="regis_page.php">ลงทะเบียนเรียน</a>
             <a class="btn btn-custum " href="student_gpa.php">TRANSCRIP</a>
             <a class="btn btn-danger " href="student_login.php">Login-GPA</a>
-            <a class="btn btn-custom" href="bar_graph.php">Graph</a>
+            <a class="btn btn-custum" href="bar_graph.php">Graph</a>
         </div></center>
 
     <div class="alert alert-info text-center mt-4 mb-4">
